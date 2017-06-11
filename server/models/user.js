@@ -11,4 +11,4 @@ var User = mongoose.model('User', {
 });
 
 
-exports.model = { User };
+module.exports = { User };
